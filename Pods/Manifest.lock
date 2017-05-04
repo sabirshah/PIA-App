@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.0.1)
+  - CVCalendar (1.4.0)
+  - DGActivityIndicatorView (2.1)
+  - FoldingCell (2.0.0)
+  - FSCalendar (2.3.3)
+  - GMStepper (1.2.0)
+  - IQKeyboardManagerSwift (4.0.6)
+  - PageMenu (1.2.9)
+  - Realm (2.0.2):
+    - Realm/Headers (= 2.0.2)
+  - Realm/Headers (2.0.2)
+  - RealmSwift (2.0.2):
+    - Realm (= 2.0.2)
+  - SwiftMoment (0.5.1)
+  - SwiftyJSON (3.1.0)
+  - UITextView+Placeholder (1.2.0)
+  - WillowTreeScrollingTabController (0.0.7)
+  - XLPagerTabStrip (6.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CVCalendar
+  - DGActivityIndicatorView
+  - FoldingCell
+  - FSCalendar
+  - GMStepper
+  - IQKeyboardManagerSwift
+  - PageMenu
+  - RealmSwift
+  - SwiftMoment
+  - SwiftyJSON
+  - UITextView+Placeholder
+  - WillowTreeScrollingTabController
+  - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  CVCalendar: ec1a06a508f99d8e5067258754f811a8a1433a3f
+  DGActivityIndicatorView: 1942ae657a8d247c035f229422b2d15a8adbe5b6
+  FoldingCell: 3dbb998dc67c1b000db77c82a8ba8bac68ce8d84
+  FSCalendar: 430254999f6285bb5ccf0bb0b124b1953ad56768
+  GMStepper: e743b5648ae5fe877e33d3b51b5aa2df432f179d
+  IQKeyboardManagerSwift: b3015e819559ca76381f87a0833f44d178564603
+  PageMenu: ba19ff267f7a19e444e93c20a7847b78954a7011
+  Realm: 0f5a194af0b7e6158b83db41b4ee1a00be7ddf1a
+  RealmSwift: 0eb5070d851cba7c66e841ca756d83609dc78bc8
+  SwiftMoment: 469c0734b5d4d6631a15a91f8093cf436c3cbb7c
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  WillowTreeScrollingTabController: 8ff7a315137302341150eb004f2479df130a5dec
+  XLPagerTabStrip: c46e802a8dcac29edbcea573de8fe920e052455b
+
+PODFILE CHECKSUM: a5b352f8b7d29d279a595cd377780e2fda586947
+
+COCOAPODS: 1.1.1

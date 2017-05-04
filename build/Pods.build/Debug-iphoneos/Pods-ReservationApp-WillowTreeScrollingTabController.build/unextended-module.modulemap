@@ -1,0 +1,10 @@
+framework module WillowTreeScrollingTabController {
+  umbrella header "Pods-ReservationApp-WillowTreeScrollingTabController-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WillowTreeScrollingTabController.__Swift {
+    exclude header "WillowTreeScrollingTabController-Swift.h"
+}

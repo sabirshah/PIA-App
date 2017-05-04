@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contact Us-->
+        <scene sceneID="6aF-ps-xW3">
+            <objects>
+                <tableViewController storyboardIdentifier="sid_contactus" id="FGG-EI-gqK" customClass="ContactUsTVC" customModule="ReservationApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="31a-9Q-Nbn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="none" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="KUW-4k-MID" customClass="ContactUsTVCTableViewCell" customModule="ReservationApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KUW-4k-MID" id="BvX-Fz-6fa">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pakistan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RdK-FG-YRt">
+                                            <rect key="frame" x="18" y="8" width="529" height="18"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="18" id="Swf-RI-uFA"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call_us" translatesAutoresizingMaskIntoConstraints="NO" id="Lyd-Au-SKI">
+                                            <rect key="frame" x="547" y="7.5" width="45" height="45"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="45" id="Kv2-Wh-i4l"/>
+                                                <constraint firstAttribute="width" secondItem="Lyd-Au-SKI" secondAttribute="height" multiplier="1:1" id="stF-QY-XYM"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+92111786786" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAy-bI-olz">
+                                            <rect key="frame" x="18" y="27" width="529" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Lyd-Au-SKI" firstAttribute="centerY" secondItem="BvX-Fz-6fa" secondAttribute="centerY" id="8oy-5u-ITq"/>
+                                        <constraint firstItem="Lyd-Au-SKI" firstAttribute="leading" secondItem="RdK-FG-YRt" secondAttribute="trailing" id="F13-rl-77I"/>
+                                        <constraint firstItem="tAy-bI-olz" firstAttribute="trailing" secondItem="RdK-FG-YRt" secondAttribute="trailing" id="GEw-eM-3ab"/>
+                                        <constraint firstItem="RdK-FG-YRt" firstAttribute="top" secondItem="BvX-Fz-6fa" secondAttribute="topMargin" id="MOr-PI-RB8"/>
+                                        <constraint firstItem="tAy-bI-olz" firstAttribute="top" secondItem="RdK-FG-YRt" secondAttribute="bottom" constant="1" id="P93-pO-cQG"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Lyd-Au-SKI" secondAttribute="trailing" id="lei-Sv-8cn"/>
+                                        <constraint firstItem="tAy-bI-olz" firstAttribute="height" secondItem="RdK-FG-YRt" secondAttribute="height" id="s9U-x3-nu4"/>
+                                        <constraint firstItem="RdK-FG-YRt" firstAttribute="leading" secondItem="BvX-Fz-6fa" secondAttribute="leadingMargin" constant="10" id="wb3-le-r6Y"/>
+                                        <constraint firstItem="tAy-bI-olz" firstAttribute="leading" secondItem="RdK-FG-YRt" secondAttribute="leading" id="xIa-Bj-Wpr"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="CountryName" destination="RdK-FG-YRt" id="C3R-jj-5fX"/>
+                                    <outlet property="CountryNumber" destination="tAy-bI-olz" id="Iyb-14-4s1"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="FGG-EI-gqK" id="gTa-3l-PJB"/>
+                            <outlet property="delegate" destination="FGG-EI-gqK" id="H1o-Tr-fMG"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Contact Us" id="xks-qc-SLw">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="9c0-EG-dAG">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="home" id="0Yt-N4-aJe">
+                            <connections>
+                                <action selector="openHone:" destination="FGG-EI-gqK" id="0lG-tb-hrp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1200"/>
+                    <connections>
+                        <outlet property="menuButton" destination="9c0-EG-dAG" id="kzO-9Z-cno"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eTm-c6-boc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4413" y="-1677"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="call_us" width="52" height="54"/>
+        <image name="home" width="24" height="24"/>
+        <image name="menu" width="22" height="22"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module UITextView_Placeholder {
+  umbrella header "Pods-ReservationApp-UITextView+Placeholder-umbrella.h"
+
+  export *
+  module * { export * }
+}

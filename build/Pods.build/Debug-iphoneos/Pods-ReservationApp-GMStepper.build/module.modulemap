@@ -1,0 +1,10 @@
+framework module GMStepper {
+  umbrella header "Pods-ReservationApp-GMStepper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GMStepper.Swift {
+    header "GMStepper-Swift.h"
+}

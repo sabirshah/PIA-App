@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "static GetPNRService.parseForRealM(JSON, completion : (BookingDetails) -&gt; ()) -&gt; ():GetPNRService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bookingDetails">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FlightNumberViewController.BindFlightNumber(FlightStatusDetails) -&gt; ():FlightNumberViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ArrDate.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

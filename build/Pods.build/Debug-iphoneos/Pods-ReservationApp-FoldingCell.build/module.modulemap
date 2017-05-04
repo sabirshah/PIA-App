@@ -1,0 +1,10 @@
+framework module FoldingCell {
+  umbrella header "Pods-ReservationApp-FoldingCell-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FoldingCell.Swift {
+    header "FoldingCell-Swift.h"
+}

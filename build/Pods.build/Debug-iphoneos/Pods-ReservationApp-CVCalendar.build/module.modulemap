@@ -1,0 +1,10 @@
+framework module CVCalendar {
+  umbrella header "Pods-ReservationApp-CVCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CVCalendar.Swift {
+    header "CVCalendar-Swift.h"
+}

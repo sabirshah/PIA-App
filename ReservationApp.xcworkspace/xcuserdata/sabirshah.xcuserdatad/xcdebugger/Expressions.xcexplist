@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "PricingTableViewController.tableView(UITableView, titleForHeaderInSection : Int) -&gt; String?:PricingTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Origin1">
+            </PersistentString>
+            <PersistentString
+               value = "section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleTabViewController.buildViewControllers() -&gt; ():ScheduleTabViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "moment()">
+            </PersistentString>
+            <PersistentString
+               value = "(moment().weekdayName">
+            </PersistentString>
+            <PersistentString
+               value = "now.weekdayName">
+            </PersistentString>
+            <PersistentString
+               value = "moment().weekdayName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CalenderViewController.DoneButton(AnyObject) -&gt; ():CalenderViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "static FlightScheduleService.(getFlightScheduleAsync(String, returnDate : String, origin : String, destination : String, completion : (flights : [FlightPath]?, error : String?) -&gt; ()) -&gt; ()).(closure #1):FlightScheduleService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "flightpathsArray[index].flights[index2].daysOfOperation.Thu ">
+            </PersistentString>
+            <PersistentString
+               value = "departureDate">
+            </PersistentString>
+            <PersistentString
+               value = "flightpathsArray[index].flights[index2].daysOfOperation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "moment()">
+            </PersistentString>
+            <PersistentString
+               value = "DateText">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScrollingTabController.scrolledPercentage.getter:ScrollingTabController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tabControllersView.contentSize.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SectorsViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:SectorsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sectorsDict">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.prepareForSegue(UIStoryboardSegue, sender : AnyObject?) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "OriginText.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainTableViewController.tableView(UITableView, heightForRowAtIndexPath : NSIndexPath) -&gt; CGFloat:MainTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellHeights.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = " FlightPath.sharedDayWiseFlights[dayofOperation!]!.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static FlightScheduleService.(getFlightScheduleAsync(String, returnDate : String, orign : String, destination : String, completion : (flights : [FlightPath]?, error : String?) -&gt; ()) -&gt; ()).(closure #1):FlightScheduleService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "origin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainTableViewController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:MainTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dayofOperation">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static FlightScheduleService.(getFlightNumberDetailAsync(String, departureDate : String, completion : (flights : [FlightPath]?, error : String?) -&gt; ()) -&gt; ()).(closure #1):FlightScheduleService.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "jsonObject[&quot;ArrivalDate&quot;].stringValue">
+            </PersistentString>
+            <PersistentString
+               value = "jsonObject[&quot;ActualInfo&quot;].arrayValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PricingTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:PricingTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.CloseDepartTime?.text">
+            </PersistentString>
+            <PersistentString
+               value = "fpFlightPaths.sharedfpFlightPaths[indexPath.row].flights[0].DepartureDate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainTableViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:MainTableViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dayofOperation">
+            </PersistentString>
+            <PersistentString
+               value = "cell.openNumberLabel.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SectorsViewController.createAnimalDict() -&gt; ():SectorsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sectorsDict">
+            </PersistentString>
+            <PersistentString
+               value = "sectorValues">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "UserProfileViewController.(viewDidLoad() -&gt; ()).(closure #1):UserProfileViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "points.userID">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.SearchClick(AnyObject) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "AdultStepper.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

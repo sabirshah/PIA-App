@@ -1,0 +1,10 @@
+framework module SwiftMoment {
+  umbrella header "Pods-ReservationApp-SwiftMoment-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftMoment.Swift {
+    header "SwiftMoment-Swift.h"
+}
